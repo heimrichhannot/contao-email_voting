@@ -1,0 +1,33 @@
+{
+    "name": "heimrichhannot/contao-email_voting",
+    "description":"Email-based voting system using efg forms",
+    "keywords":["contao", "voting"],
+    "type": "contao-module",
+    "homepage":"https://github.com/heimrichhannot/contao-email_voting",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Heimrich & Hannot",
+            "email":"digitales@heimrich-hannot.de",
+            "homepage":"http://www.heimrich-hannot.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/heimrichhannot/contao-email_voting/issues"
+    },
+    "require": {
+        "contao/core": ">=3.2,<4-dev",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "autoload": {
+        "classmap": [""]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/email_voting"
+            }
+        }
+    }
+}
