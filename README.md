@@ -14,6 +14,10 @@ Add the necessary fields to a new EFG form:
 ![alt myModulePreview](docs/formfields.png)
 
 ### Step 2
+
+Activate "Save formdata (efg)" in the form configuration.
+
+### Step 3
 After adding the necessary fields, link them in the form's config:
 
 ![alt myModulePreview](docs/form.png)
@@ -22,7 +26,7 @@ In order to confirm the voting, an email has to be sent:
 
 ![alt myModulePreview](docs/form_email.png)
 
-### Step 3
+### Step 4
 The activation site needs to contain an activation module:
 
 ![alt myModulePreview](docs/article.png)
