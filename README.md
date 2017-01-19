@@ -15,7 +15,7 @@ Add the necessary fields to a new EFG form:
 
 ### Step 2
 
-Activate "Save formdata (efg)" in the form configuration.
+Activate "Save formdata (efg)" in the form configuration (alias field could be email).
 
 ### Step 3
 After adding the necessary fields, link them in the form's config:

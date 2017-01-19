@@ -5,9 +5,9 @@ namespace HeimrichHannot\EmailVoting;
 class EmailVoting extends \Frontend
 {
 
-	public function validateVotingEmailFormField(\Widget $objWidget, $intId)
+	public function validateVotingEmailFormField(\Widget $objWidget, $strId, $arrData, $objForm)
 	{
-		if (($objForm = \FormModel::findBy('alias', str_replace('auto_', '', $intId))) !== null && $objForm->maxVoteCount)
+		if ($objForm->maxVoteCount)
 		{
 			// check if a voting from the mail address already exists
 			$db = \Database::getInstance();
